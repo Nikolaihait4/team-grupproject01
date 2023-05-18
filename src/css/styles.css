@@ -16,18 +16,22 @@
 
 :root {
   /* Main-color */
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --red-color: #ae1332;
+  --green-color: #a4cb66;
+  --yellov-color: #f5ce13;
 
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  /* Body */
+  font-family: DM Sans, sans-serif;
   font-weight: 400;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  color: #ffffff;
+  background-color: #ae1332;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
+.container {
+  width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
