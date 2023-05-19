@@ -3,7 +3,7 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: #ffffff;
+  background-color: var(--white-color);
   width: 100%;
 }
 .header > .conteiner{
@@ -138,12 +138,12 @@
   margin: 0 auto;
 }
 .mob-nav-item{
-  color: #ffffff;
-  fill: #ffffff;
+  color: var(--white-color);
+  fill: var(--white-color);
 }
 .mob-basket{
   display: block;
-  fill: #ffffff;
+  fill: var(--white-color);
 }
 
 .js-open-menu.hidden{
