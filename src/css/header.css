@@ -1,5 +1,7 @@
 .header{
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
   background-color: #ffffff;
   width: 100%;
@@ -82,16 +84,27 @@
   **| Mobile menu
   **|============================
 */
+.mob-menu-btn-box{
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
 .mob-menu-btn{
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   padding: 0;
   width: 24px;
   height: 24px;
   border: none;
   background-color: transparent;
+  transform: translateY(0);
+  transition: transform 250ms linear;
 }
 @media only screen and (min-width: 768px) {
-  .mob-menu-open {
+  .mob-menu-btn {
     display: none;
   }
 }
@@ -133,6 +146,9 @@
   fill: #ffffff;
 }
 
-.hidden{
-  display: none;
+.js-open-menu.hidden{
+  transform: translateY(101%);
+}
+.js-close-menu.hidden{
+  transform: translateY(-101%);
 }
