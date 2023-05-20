@@ -34,6 +34,7 @@
   --color-button-order: #9DC262;
 }
 
+
 body {
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
@@ -43,7 +44,7 @@ body {
 }
 
 .container {
-  width: 375px;
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
 }
