@@ -25,8 +25,8 @@
 
     <!-- CSS-стили -->
     
-    <script type="module" crossorigin src="/team-grupproject01/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/team-grupproject01/assets/index-8f6e2395.css">
+    <script type="module" crossorigin src="/team-grupproject01/assets/index-7ae64c72.js"></script>
+    <link rel="stylesheet" href="/team-grupproject01/assets/index-443702d7.css">
   </head>
   <body>
     <!-- Header -->
@@ -48,7 +48,7 @@
       </nav>
       <a href="" class="logo">
         <svg class="logo-icon" width="156" height="18">
-          <use href="/team-grupproject01/assets/icon-3de751bf.svg#icon-logo"></use>
+          <use href="/team-grupproject01/assets/icon-eb173025.svg#icon-logo"></use>
         </svg>
       </a>
     </div>
@@ -56,7 +56,7 @@
     <div class="mob-menu-btn-box">
       <button class="mob-menu-btn js-open-menu" type="button" >
         <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/team-grupproject01/assets/icon-3de751bf.svg#icon-burger-menu"></use>
+          <use href="/team-grupproject01/assets/icon-eb173025.svg#icon-burger-menu"></use>
         </svg>
       </button>
       <button class="mob-menu-btn js-close-menu hidden" type="button" >
@@ -68,7 +68,7 @@
     <!-- ^/mob menu buttopns -->
     <a class="basket">
       <svg class="basket-icon" width="24" height="24">
-        <use href="/team-grupproject01/assets/icon-3de751bf.svg#icon-basket"></use>
+        <use href="/team-grupproject01/assets/icon-eb173025.svg#icon-basket"></use>
       </svg>
     </a>
   </div>
@@ -291,16 +291,16 @@
         </div>
       </li>
     </ul>
-   <button class="button-title" type="button" data-modal-open name="ORDER">
-        <svg class="fruits-icon" width="14" height="14">
-          <use href="../img/icon.svg#icon-Vector"></use></svg
-        >ORDER
-      </button>
+    <button class="button-title" type="button" data-modal-open name="ORDER">
+      <svg class="fruits-icon" width="14" height="14">
+        <use href="../img/icon.svg#icon-Vector"></use>
+      </svg>
+      ORDER
+    </button>
   </div>
 </section>
 
-      
-      
+
       <!-- Contact-section4 -->
       <section>Contact section</section>
 
@@ -327,6 +327,31 @@
 
     <!-- Loads the specified .html file -->
     <!-- ENOENT: no such file or directory, open '/home/runner/work/team-grupproject01/team-grupproject01/src/partials/vite-promo.html' -->
+
+    <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+    <button type="button" class="js-open-modal" data-modal="1">ORDER</button>
+
+    <!-- Элементы для вызова модальных окон, могут быть любые -->
+
+    <!-- Несколько модальных окон -->
+
+    <div class="modal" data-modal="1">
+      <!--   Svg иконка для закрытия окна  -->
+      <svg
+        class="modal__cross js-modal-close"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+        />
+      </svg>
+      <p class="modal__title">Заголовок окна 1</p>
+    </div>
+
+    <!-- Подложка под модальным окном -->
+    <div class="overlay js-overlay-modal"></div>
 
     
     <script src="./js/mobile-menu.js"></script>
