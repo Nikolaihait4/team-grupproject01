@@ -1,4 +1,4 @@
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,7 +6,7 @@
   background-color: var(--white-color);
   width: 100%;
 }
-.header > .conteiner{
+.header > .conteiner {
   max-width: 375px;
   padding: 16px 20px;
   display: flex;
@@ -16,16 +16,16 @@
 }
 @media only screen and (min-width: 768px) {
   .header > .conteiner {
-    max-width: 704px;
+    max-width: 768px;
     padding: 16px 32px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .header > .conteiner {
-    max-width: 1216px;
+    max-width: 1280px;
   }
 }
-.header-left-side{
+.header-left-side {
   display: flex;
   justify-content: space-between;
   height: 18px;
@@ -40,12 +40,12 @@
     width: 686px;
   }
 }
-  .nav-list{
-    display: none;
-  }
+.nav-list {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
-  .nav-list{
+  .nav-list {
     display: flex;
     gap: 16px;
   }
@@ -56,19 +56,19 @@
   }
 }
 
-.nav-item{
+.nav-item {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.04em;
   color: var(--red-color);
 }
-.logo{
+.logo {
   width: 156px;
   height: 18px;
 }
 
-.basket{
+.basket {
   display: none;
 }
 @media only screen and (min-width: 768px) {
@@ -84,13 +84,13 @@
   **| Mobile menu
   **|============================
 */
-.mob-menu-btn-box{
+.mob-menu-btn-box {
   position: relative;
   width: 24px;
   height: 24px;
   overflow: hidden;
 }
-.mob-menu-btn{
+.mob-menu-btn {
   position: absolute;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@
     display: none;
   }
 }
-.mob-menu{
+.mob-menu {
   position: fixed;
   top: 0;
   left: 0;
@@ -126,10 +126,10 @@
     display: none;
   }
 } */
-.is-open{
+.is-open {
   transform: translateX(0);
 }
-.mob-nav-list{
+.mob-nav-list {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -137,18 +137,18 @@
   gap: 16px;
   margin: 0 auto;
 }
-.mob-nav-item{
+.mob-nav-item {
   color: var(--white-color);
   fill: var(--white-color);
 }
-.mob-basket{
+.mob-basket {
   display: block;
   fill: var(--white-color);
 }
 
-.js-open-menu.hidden{
+.js-open-menu.hidden {
   transform: translateY(101%);
 }
-.js-close-menu.hidden{
+.js-close-menu.hidden {
   transform: translateY(-101%);
 }
