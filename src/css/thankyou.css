@@ -1,0 +1,81 @@
+.modal-thank {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: auto;
+    margin-left: 0;
+    margin-right: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 90%;
+    /* max-height: 426px; */
+    padding: 40px 20px;
+    background-color:var(--pink-color);
+    border-radius: 20px;
+}
+@media only screen and (min-width: 768px) {
+.modal-thank {
+    width: 600px;
+    /* max-height: 545px; */
+    padding: 68px 104px 80px 105px;
+  }
+}
+
+.img-thank{
+   
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+}
+
+.modal-thank-btn {
+    
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 20px;
+    margin-right: auto;
+    
+    background-color:var(--pink-color);
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+.modal-thank-icon {
+    fill: var(--white-color);
+   
+   }
+
+.thank-title {
+   
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-bottom: 14px;
+}
+@media only screen and (min-width: 768px) {
+.thank-title  {
+    
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+.thank-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.04em;
+    text-align: center;
+}
+@media only screen and (min-width: 768px) {
+.thank-text{
+    
+  }
+}
