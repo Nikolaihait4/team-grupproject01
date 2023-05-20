@@ -26,13 +26,80 @@
     <!-- CSS-стили -->
     
     <script type="module" crossorigin src="/team-grupproject01/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/team-grupproject01/assets/index-1f4dd7d9.css">
+    <link rel="stylesheet" href="/team-grupproject01/assets/index-2892e739.css">
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-  <p>Hello header</p>
+  <div class="conteiner">
+    <div class="header-left-side">
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="#fruits" class="nav-link">Fruits</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="" class="logo">
+        <svg class="logo-icon" width="156" height="18">
+          <use href="/team-grupproject01/assets/icon-a03f2bc8.svg#icon-logo"></use>
+        </svg>
+      </a>
+    </div>
+    <!-- ^Mob menu buttons -->
+    <div class="mob-menu-btn-box">
+      <button class="mob-menu-btn js-open-menu" type="button" >
+        <svg class="mob-menu-icon" width="24" height="24">
+          <use href="/team-grupproject01/assets/icon-a03f2bc8.svg#icon-burger-menu"></use>
+        </svg>
+      </button>
+      <button class="mob-menu-btn js-close-menu hidden" type="button" >
+        <svg class="mob-menu-close-btn" width="24" height="24">
+          <use href="../img/icon.svg#icon-cross"></use>
+        </svg>
+      </button>
+    </div>
+    <!-- ^/mob menu buttopns -->
+    <a class="basket">
+      <svg class="basket-icon" width="24" height="24">
+        <use href="/team-grupproject01/assets/icon-a03f2bc8.svg#icon-basket"></use>
+      </svg>
+    </a>
+  </div>
 </header>
+<div class="mob-menu conteiner js-menu-container" >
+  
+  <ul class="mob-nav-list">
+    <li class="mob-nav-item">
+      <a href="#how-it-works" class="mob-nav-link nav-link">
+        How It Works
+      </a>
+    </li>
+    <li class="mob-nav-item">
+      <a href="#fruits" class="mob-nav-link nav-link">
+        Fruits
+      </a>
+    </li>
+    <li class="mob-nav-item">
+      <a href="#contacts" class="mob-nav-link nav-link">
+        Contacts
+      </a>
+    </li>
+    <li class="mob-nav-item">
+      <a href="" class="basket mob-basket">
+        <svg class="mob-bas" width="24" height="24">
+          <use href="../img/icon.svg#icon-basket"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
 
 
     <main>
@@ -77,5 +144,6 @@
     <!-- ENOENT: no such file or directory, open '/home/runner/work/team-grupproject01/team-grupproject01/src/partials/vite-promo.html' -->
 
     
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
