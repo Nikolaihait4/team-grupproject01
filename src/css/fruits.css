@@ -1,0 +1,361 @@
+@import url('./reset.css');
+@import url('./fruits.css');
+
+:root {
+  /* Main-color */
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --red-color: #ae1332;
+  --green-color: #a4cb66;
+  --yellov-color: #f5ce13;
+  --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --color-strawberry: #f8766b;
+  --color-Banana: #edd251;
+  --color-Watermelon: #9dc262;
+  --color-Lime: #bfd663;
+  --color-Apple: #e93f29;
+  --color-Peach: #db4f4b;
+  --color-Plums: #9b5366;
+  --color-Orange: #f47f4c;
+  --color-Kiwi: #98b37e;
+  --color-button-order: #9dc262;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #ae1332;
+}
+
+.container {
+  width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Tablet styles & > */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Desktop styles & > */
+@media only screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* COMPONENT */
+.fruits {
+  padding-top: 0;
+  padding-bottom: 80px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.fruits-container {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fruits-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.fruits-text {
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+  text-align: center;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+  .fruits-container {
+    width: 624px;
+  }
+  .fruits-text {
+    padding-left: 38.5px;
+    padding-right: 38.5px;
+  }
+
+  .fruits-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .fruits {
+    display: flex;
+    padding-bottom: 144px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .fruits-container {
+    width: 624px;
+    margin-left: 295.5px;
+    margin-right: 295.5px;
+  }
+  .fruits-title {
+    font-size: 40px;
+    line-height: 1.1;
+    flex-direction: column;
+  }
+  .fruits {
+    display: flex;
+    padding-bottom: 150px;
+  }
+}
+
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.subtitle-description {
+  margin-bottom: 8px;
+  margin-left: 24px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.7;
+  letter-spacing: -0.04em;
+}
+
+.description-text {
+  margin-left: 24px;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.fruits-price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+  padding: 12px 24px;
+  color: var(--red-color);
+  background-color: var(--white-color);
+  border-radius: 200px;
+  margin-top: 6px;
+  margin-left: 24px;
+}
+
+.fruits-list {
+  margin-top: 64px;
+  margin-bottom: 24px;
+}
+
+.fruits-img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-set {
+    gap: 16px 16px;
+  }
+  .subtitle-description {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .description-text {
+    font-size: 14px;
+  }
+  .fruits-price {
+    font-size: 18px;
+    padding: 12px 21px;
+    margin-top: 0;
+  }
+  .fruits-img {
+    margin-left: 25px;
+    margin-right: 24px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .card-set {
+    gap: 24px 24px;
+  }
+  .subtitle-description {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+  .description-text {
+    font-size: 14px;
+  }
+  .fruits-price {
+    font-size: 18px;
+    padding: 12px 21px;
+    margin-top: 0;
+  }
+  .fruits-img {
+    margin-left: 47px;
+    margin-right: 47px;
+  }
+}
+
+.menu-fruits {
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.fruits-item {
+  width: 335px;
+  border-radius: 20px;
+}
+
+.fruits-item.strawberry {
+  background-color: var(--color-strawberry);
+}
+.fruits-item.banana {
+  background-color: var(--color-Banana);
+}
+
+.fruits-item.watermelon {
+  background-color: var(--color-Watermelon);
+}
+
+.fruits-item.lime {
+  background-color: var(--color-Lime);
+}
+
+.fruits-item.apple {
+  background-color: var(--color-Apple);
+}
+
+.fruits-item.peach {
+  background-color: var(--color-Peach);
+}
+
+.fruits-item.plums {
+  display: none;
+}
+
+.fruits-item.orange {
+  display: none;
+}
+
+.fruits-item.kiwi {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .fruits-item {
+    max-width: 344px;
+    width: calc((100% - 16px) / 2);
+  }
+  .fruits-item.plums {
+    background-color: var(--color-Plums);
+  }
+
+  .fruits-item.orange {
+    background-color: var(--color-Orange);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .fruits-item {
+    max-width: 389px;
+    width: calc((100% - 48px) / 3);
+  }
+  .fruits-item.plums {
+    background-color: var(--color-Plums);
+  }
+  .fruits-item.orange {
+    background-color: var(--color-Orange);
+  }
+  .fruits-item.kiwi {
+    background-color: var(--color-Kiwi);
+  }
+}
+
+.fruits-icon {
+  fill: var(--white-color);
+  margin-right: 4px;
+  width: 14px;
+  height: 14px;
+}
+.fruits-icon:active {
+  fill: var(--color-button-order);
+  transition: fill var(--transition-duration-and-func);
+}
+
+.button-title {
+  display: block;
+  min-width: 80px;
+  min-height: 80px;
+  border: none;
+  border-radius: 100px;
+  padding: 26px 7px 26px 7px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+  color: var(--white-color);
+  background-color: var(--color-button-order);
+  margin: 0 auto;
+  transition: color var(--transition-duration-and-func),
+    background-color var(--transition-duration-and-func);
+}
+
+.button-title:active {
+  color: var(--color-button-order);
+  background-color: var(--white-color);
+}
+
+@media only screen and (min-width: 768px) {
+  .button-title {
+    min-width: 114px;
+    min-height: 114px;
+    font-size: 18px;
+    padding: 38px 18px 38px 18px;
+  }
+  .button-title:hover,
+  .button-title:focus {
+    color: var(--color-button-order);
+    background-color: var(--white-color);
+  }
+  .fruits-icon:hover,
+  .fruits-icon:focus {
+    fill: var(--color-button-order);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .button-title {
+    min-width: 114px;
+    min-height: 114px;
+    font-size: 18px;
+    padding: 38px 18px 38px 18px;
+  }
+  .button-title:hover,
+  .button-title:focus {
+    color: var(--color-button-order);
+    background-color: var(--white-color);
+  }
+  .fruits-icon:hover,
+  .fruits-icon:focus {
+    fill: var(--color-button-order);
+  }
+}

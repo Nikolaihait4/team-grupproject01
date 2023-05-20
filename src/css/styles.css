@@ -21,6 +21,17 @@
   --red-color: #ae1332;
   --green-color: #a4cb66;
   --yellov-color: #f5ce13;
+  --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --color-strawberry: #F8766B;
+  --color-Banana: #EDD251;
+  --color-Watermelon: #9DC262;
+  --color-Lime: #BFD663;
+  --color-Apple: #E93F29;
+  --color-Peach: #DB4F4B;
+  --color-Plums: #9B5366;
+  --color-Orange: #F47F4C;
+  --color-Kiwi: #98B37E;
+  --color-button-order: #9DC262;
 }
 
 
