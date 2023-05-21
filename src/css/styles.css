@@ -18,6 +18,7 @@
   /* Main-color */
   --white-color: #ffffff;
   --black-color: #000000;
+  --black-color-alfa: rgba(0, 0, 0, 0.3);
   --red-color: #ae1332;
   --green-color: #a4cb66;
   --yellov-color: #f5ce13;
@@ -82,7 +83,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 30; /* Должен быть выше чем у подложки*/
+  z-index: 30;
+  /* Должен быть выше чем у подложки*/
 
   /*  Побочные стили   */
   box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
