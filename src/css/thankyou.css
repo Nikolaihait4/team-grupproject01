@@ -1,80 +1,126 @@
-.modal-thank {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    overflow: auto;
-    margin-left: 0;
-    margin-right: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    width: 90%;
-    /* max-height: 426px; */
-    padding: 40px 20px;
-    background-color:var(--pink-color);
-    border-radius: 20px;
+.modal {
+  /* скрыл окно */
+  opacity: 0;
+  visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  overflow: auto;
+  margin-left: 0;
+  margin-right: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  width: 90%;
+  /* max-height: 426px; */
+  padding: 40px 20px;
+  background-color: var(--pink-color);
+  border-radius: 20px;
 }
+
 @media only screen and (min-width: 768px) {
-.modal-thank {
+  .modal-thank {
     width: 600px;
     max-height: 545px;
     padding: 68px 104px 80px 105px;
   }
 }
 
-.img-thank{
-   
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 28px;
+.img-thank {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 28px;
 }
 
 .modal-thank-btn {
-    
-    position: absolute;
-    display: block;
-    top: 20px;
-    right: 20px;
-    margin-right: auto;
-    
-    background-color:var(--pink-color);
-    justify-content: center;
-    border: none;
-    cursor: pointer;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  display: block;
+  top: 20px;
+  right: 20px;
+  margin-right: auto;
 
+  background-color: var(--pink-color);
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
 
 .modal-thank-icon {
-    fill: var(--white-color);
-   
-   }
+  fill: var(--white-color);
+}
 
 .thank-title {
-   
-    font-size: 28px;
-    line-height: 1;
-    text-align: center;
-    margin-bottom: 14px;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 14px;
 }
 @media only screen and (min-width: 768px) {
-.thank-title  {
-    
+  .thank-title {
     font-size: 40px;
     line-height: 1.1;
   }
 }
 
 .thank-text {
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.04em;
-    text-align: center;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.04em;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
-.thank-text{
-    
+  .thank-text {
   }
+}
+
+/* Пример стилей для модального окна */
+
+/* Стили для модальных окон */
+
+.modal {
+  /* Скрываем окна  */
+  /* opacity: 0;
+  visibility: hidden; */
+
+  /*  Установаем ширину окна  */
+  /* width: 100%;
+  max-width: 500px; */
+
+  /*  Центрируем и задаем z-index */
+  /* position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30; */
+  /* Должен быть выше чем у подложки*/
+
+  /*  Побочные стили   */
+  /* box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 30px;
+  border-radius: 3px;
+  background-color: #fff;
+  transition: 0.3s all; */
+}
+
+/* Стили для активных классов подложки и окна */
+
+.modal.active,
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Стили для кнопки закрытия */
+
+.modal__cross {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  fill: #444;
+  cursor: pointer;
 }
