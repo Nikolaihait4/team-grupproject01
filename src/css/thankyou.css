@@ -17,7 +17,7 @@
 @media only screen and (min-width: 768px) {
 .modal-thank {
     width: 600px;
-    /* max-height: 545px; */
+    max-height: 545px;
     padding: 68px 104px 80px 105px;
   }
 }
