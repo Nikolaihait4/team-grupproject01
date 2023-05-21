@@ -26,7 +26,7 @@
     <!-- CSS-стили -->
     
     <script type="module" crossorigin src="/team-grupproject01/assets/index-10f9b415.js"></script>
-    <link rel="stylesheet" href="/team-grupproject01/assets/index-b9983a8b.css">
+    <link rel="stylesheet" href="/team-grupproject01/assets/index-b0be78c3.css">
   </head>
   <body>
     <!-- Header -->
@@ -345,7 +345,7 @@
         <label class="contacts-label" for="contacts-email"
           >Enter email...</label
         >
-        <button class="contacts-btn js-open-modal" data-modal="1" type="submit">
+        <button class="contacts-btn js-open-modal" data-modal="2" type="submit">
           send
         </button>
       </div>
@@ -510,36 +510,52 @@
     </form>
     <div class="fon-img"></div>
   </div>
+
+  <button type="button" class="js-open-modal" data-modal="1">ORDER</button>
+
+  <div class="modal" data-modal="1">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg
+      class="modal__cross js-modal-close"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+      />
+    </svg>
+    <p class="modal__title">Заголовок окна 1</p>
+  </div>
 </div>
 
 
     <!-- Thankyou-section7 -->
-    <!-- <section>Thank you</section>
-<div class="modal-thank">
-  <button class="modal-thank-btn" type="button" data-modal-close>
-    <svg class="modal-thank-icon" width="12" height="12">
-      <use href="./img/icon.svg#icon-close-black"></use>
+    <section>Thank you</section>
+<div class="modal" data-modal="2">
+  <button class="modal-thank-btn" type="button">
+    <svg class="modal-thank-icon js-modal-close" width="12" height="12">
+      <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-close-black"></use>
     </svg>
   </button>
   <picture>
     <source
       media="(min-width: 768px)"
-      srcset="./img/thankyou/thank-m.png 1x, ./img/thankyou/thank-m@2x.png 2x"
+      srcset="/team-grupproject01/assets/thank-m-2a153645.png 1x, /team-grupproject01/assets/thank-m@2x-29a249ed.png 2x"
       tipe="image/png"
     />
     <source
       media="(max-width: 767px)"
-      srcset="./img/thankyou/thank-s.png 1x, ./img/thankyou/thank-s@2x.png 2x"
+      srcset="/team-grupproject01/assets/thank-s-18b19cd1.png 1x, /team-grupproject01/assets/thank-s@2x-6643a880.png 2x"
       tipe="image/png"
     />
     <img
       class="img-thank"
-      src="./img/thankyou/thank-s.png"
+      src="/team-grupproject01/assets/thank-s-18b19cd1.png"
       alt="raspberries"
       width="207px"
     />
-  </picture> -->
-<!-- <img class="img-thank" 
+  </picture>
+  <!-- <img class="img-thank" 
     srcset="
     ./img/thankyou/thank-s.png 207w,
     ./img/thankyou/thank-m.png 278w,  
@@ -548,14 +564,32 @@
      "
      src="./img/thankyou/thank-s.png" 
      sizes="(min-width: 768px ) 278px, (min-width:375px) 207px, 100vw"  alt="raspberries" width="207px" height="239px"> -->
-<!-- <h1 class="thank-title">THANK YOU</h1>
+  <h1 class="thank-title">THANK YOU</h1>
   <p class="thank-text">
     Thank you for your order! Our team is preparing your box with fresh,
     delicious fruits and vegetables, and we'll deliver it straight to your
     doorstep. We appreciate your business and look forward to providing you with
     the best possible experience!
   </p>
-</div> -->
+
+  <!-- Пример кнопки и модалки-->
+
+  <!-- <button type="button" class="js-open-modal" data-modal="2">ORDER2</button> -->
+
+  <!-- <div class="modal" data-modal="2"> -->
+  <!--   Svg иконка для закрытия окна  -->
+  <!-- <svg
+      class="modal__cross js-modal-close"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+      />
+    </svg>
+    <p class="modal__title">Заголовок окна 2</p>
+  </div> -->
+</div>
 
 
     <!-- <section> -->
@@ -564,15 +598,17 @@
     <!-- <img src="./img/javascript.svg" alt="" /> -->
     <!-- </section> -->
 
-    <!-- Loads the specified .html file -->
-    <!-- ENOENT: no such file or directory, open '/home/runner/work/team-grupproject01/team-grupproject01/src/partials/vite-promo.html' -->
+    <!-- Loads the specified .html file
+    ENOENT: no such file or directory, open '/home/runner/work/team-grupproject01/team-grupproject01/src/partials/vite-promo.html' -->
 
     <!-- Элементы для вызова модальных окон, могут быть любые -->
 
     <button type="button" class="js-open-modal" data-modal="1">ORDER</button>
+    <button type="button" class="js-open-modal" data-modal="2">ORDER2</button>
 
     <!-- Элементы для вызова модальных окон, могут быть любые -->
-
+    <!-- <a href="#" class="js-open-modal" data-modal="1">Открыть окно 1</a>
+    <a href="#" class="js-open-modal" data-modal="2">Открыть окно 2</a> -->
     <!-- Несколько модальных окон -->
 
     <div class="modal" data-modal="1">
@@ -587,6 +623,20 @@
         />
       </svg>
       <p class="modal__title">Заголовок окна 1</p>
+    </div>
+
+    <div class="modal" data-modal="2">
+      <!--   Svg иконка для закрытия окна  -->
+      <svg
+        class="modal__cross js-modal-close"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+        />
+      </svg>
+      <p class="modal__title">Заголовок окна 2</p>
     </div>
 
     <!-- Подложка под модальным окном -->
