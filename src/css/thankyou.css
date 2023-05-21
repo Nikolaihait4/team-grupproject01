@@ -1,4 +1,4 @@
-.modal {
+.modal-thank {
   /* скрыл окно */
   opacity: 0;
   visibility: hidden;
@@ -53,13 +53,20 @@
 }
 
 
+@media only screen and (min-width: 768px) {
+  .thank-title {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+
 .thank-text {
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.04em;
   text-align: center;
 }
-
 
 /* Пример стилей для модального окна */
 
@@ -101,12 +108,7 @@
 
 /* Стили для кнопки закрытия */
 
-.modal__cross {
-  width: 15px;
-  height: 15px;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  fill: #444;
-  cursor: pointer;
+
+@media only screen and (min-width: 768px) {
+  .thank-text {}
 }

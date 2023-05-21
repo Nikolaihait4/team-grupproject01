@@ -1,166 +1,148 @@
-<div class="backdrop" data-modal>
-  <div class="modal-window">
-    <h1 class="modal-title-text">Your Order</h1>
-    <button class="modal-btn-close" type="button" data-modal-close>
-      <svg class="icon" width="24" height="24">
-        <use href="../img/icon.svg#icon-cross"></use>
-      </svg>
-    </button>
-    <form class="modal-form">
-      <ul class="modal-order-list">
-        <li class="modal-order-item">
-          <label class="order order-strawberry">
-            <span class="order-title">Strawberry Basket</span>
-            <span class="order-text">Plant</span>
-            <img
-              class="order-img"
-              srcset="
-                ../img/order/img-1_88.png   88w,
-                ../img/order/img-1_133.png 133w,
-                ../img/order/img-1_173.png 173w,
-                ../img/order/img-1_176.png 176w,
-                ../img/order/img-1_266.png 266w,
-                ../img/order/img-1_346.png 346w
-              "
-              sizes="
+<div class="modal order-modal" data-modal="1">
+  <h1 class="modal-title-text">Your Order</h1>
+  <button class="modal-btn-close js-modal-close" type="button" data-modal-close>
+    <svg class="icon" width="24" height="24">
+      <use href="./img/icon.svg#icon-cross"></use>
+    </svg>
+  </button>
+  <form class="modal-form">
+    <ul class="modal-order-list">
+      <li class="modal-order-item">
+        <label class="order order-strawberry">
+          <span class="order-title">Strawberry Basket</span>
+          <span class="order-text">Plant</span>
+          <img
+            class="order-img"
+            srcset="
+              ./img/order/img-1_88.png   88w,
+              ./img/order/img-1_133.png 133w,
+              ./img/order/img-1_173.png 173w,
+              ./img/order/img-1_176.png 176w,
+              ./img/order/img-1_266.png 266w,
+              ./img/order/img-1_346.png 346w
+            "
+            sizes="
                 (min-width: 1280px) 173px,
                 (min-width: 768px) 133px,
                 (max-width: 767px) 88px"
-              src="../img/order/img-1-88.png"
-              alt="Strawberry Basket"
-              loading="lazy"
-            />
-            <input
-              class="order-input visually-hidden"
-              type="checkbox"
-              name="strawberry-basket"
-              checked
-            />
-            <span class="order-input-cust">
-              <svg class="check-icon" width="6" height="6">
-                <use href="../img/icon.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
-        </li>
-        <li class="modal-order-item">
-          <label class="order order-apple">
-            <span class="order-title">Apple Basket</span>
-            <span class="order-text">Plant</span>
-            <img
-              class="order-img"
-              srcset="
-                ../img/order/img-2_106.png 106w,
-                ../img/order/img-2_172.png 172w,
-                ../img/order/img-2_212.png 212w,
-                ../img/order/img-2_229.png 229w,
-                ../img/order/img-2_344.png 344w,
-                ../img/order/img-2_458.png 458w
-              "
-              sizes="
+            src="./img/order/img-1-88.png"
+            alt="Strawberry Basket"
+            loading="lazy"
+          />
+          <input
+            class="order-input visually-hidden"
+            type="checkbox"
+            name="strawberry-basket"
+            checked
+          />
+          <span class="order-input-cust">
+            <svg class="check-icon" width="6" height="6">
+              <use href="./img/icon.svg#icon-pick"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+      <li class="modal-order-item">
+        <label class="order order-apple">
+          <span class="order-title">Apple Basket</span>
+          <span class="order-text">Plant</span>
+          <img
+            class="order-img"
+            srcset="
+              ./img/order/img-2_106.png 106w,
+              ./img/order/img-2_172.png 172w,
+              ./img/order/img-2_212.png 212w,
+              ./img/order/img-2_229.png 229w,
+              ./img/order/img-2_344.png 344w,
+              ./img/order/img-2_458.png 458w
+            "
+            sizes="
                 (min-width: 1280px) 229px,
                 (min-width: 768px) 172px,
                 (max-width: 767px) 106px"
-              src="../img/order/img-2-106.png"
-              alt="Apple Baske"
-              loading="lazy"
-            />
-            <input
-              class="order-input visually-hidden"
-              type="checkbox"
-              name="strawberry-basket"
-            />
-            <span class="order-input-cust">
-              <svg class="check-icon" width="6" height="6">
-                <use href="../img/icon.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
-        </li>
-        <li class="modal-order-item">
-          <label class="order order-fruits">
-            <span class="order-title">Fruits Basket</span>
-            <span class="order-text">Plant</span>
-            <img
-              class="order-img"
-              srcset="
-                ../img/order/img-3_107.png 107w,
-                ../img/order/img-3_172.png 172w,
-                ../img/order/img-3_214.png 214w,
-                ../img/order/img-3_229.png 229w,
-                ../img/order/img-3_344.png 344w,
-                ../img/order/img-3_458.png 458w
-              "
-              sizes="
+            src="./img/order/img-2-106.png"
+            alt="Apple Baske"
+            loading="lazy"
+          />
+          <input
+            class="order-input visually-hidden"
+            type="checkbox"
+            name="apple-basket"
+          />
+          <span class="order-input-cust">
+            <svg class="check-icon" width="6" height="6">
+              <use href="./img/icon.svg#icon-pick"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+      <li class="modal-order-item">
+        <label class="order order-fruits">
+          <span class="order-title">Fruits Basket</span>
+          <span class="order-text">Plant</span>
+          <img
+            class="order-img"
+            srcset="
+              ./img/order/img-3_107.png 107w,
+              ./img/order/img-3_172.png 172w,
+              ./img/order/img-3_214.png 214w,
+              ./img/order/img-3_229.png 229w,
+              ./img/order/img-3_344.png 344w,
+              ./img/order/img-3_458.png 458w
+            "
+            sizes="
                 (min-width: 1280px) 229px,
                 (min-width: 768px) 172px,
                 (max-width: 767px) 107px"
-              src="../img/order/img-3-107.png"
-              alt="Fruits Basket"
-              loading="lazy"
-            />
-            <input
-              class="order-input visually-hidden"
-              type="checkbox"
-              name="strawberry-basket"
-            />
-            <span class="order-input-cust">
-              <svg class="check-icon" width="6" height="6">
-                <use href="../img/icon.svg#icon-pick"></use>
-              </svg>
-            </span>
-          </label>
-        </li>
-      </ul>
-      <span class="modal-input-decor">
-        <input
-          class="modal-form-input"
-          type="text"
-          name="user-name"
-          pattern="^[A-Za-zА-Яа-яґҐЁёІіЇїЄє][A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ0-9- ]+$"
-          placeholder="Enter full name..."
-          required
-        />
-        <input
-          class="modal-form-input"
-          type="email"
-          name="user-email"
-          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-          placeholder="Enter email..."
-          required
-        />
-        <input
-          class="modal-form-input"
-          type="text"
-          name="user-card"
-          pattern="[0-9]{13,16}"
-          placeholder="Enter card.."
-          required
-        />
-        <textarea
-          class="modal-form-massage"
-          name="user-comment"
-          placeholder="Enter comments..."
-        ></textarea>
-      </span>
-      <button class="modal-btn-submit" type="submit">submit</button>
-    </form>
-    <div class="fon-img"></div>
-  </div>
-
-  <button type="button" class="js-open-modal" data-modal="1">ORDER</button>
-
-  <div class="modal" data-modal="1">
-    <!--   Svg иконка для закрытия окна  -->
-    <svg
-      class="modal__cross js-modal-close"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 24 24"
-    >
-      <path
-        d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"
+            src="./img/order/img-3-107.png"
+            alt="Fruits Basket"
+            loading="lazy"
+          />
+          <input
+            class="order-input visually-hidden"
+            type="checkbox"
+            name="fruits-basket"
+          />
+          <span class="order-input-cust">
+            <svg class="check-icon" width="6" height="6">
+              <use href="./img/icon.svg#icon-pick"></use>
+            </svg>
+          </span>
+        </label>
+      </li>
+    </ul>
+    <span class="modal-input-decor">
+      <input
+        class="modal-form-input"
+        type="text"
+        name="user-name"
+        pattern="^[A-Za-zА-Яа-яґҐЁёІіЇїЄє][A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ0-9- ]+$"
+        placeholder="Enter full name..."
+        required
       />
-    </svg>
-    <p class="modal__title">Заголовок окна 1</p>
-  </div>
+      <input
+        class="modal-form-input"
+        type="email"
+        name="user-email"
+        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        placeholder="Enter email..."
+        required
+      />
+      <input
+        class="modal-form-input"
+        type="text"
+        name="user-card"
+        pattern="[0-9]{13,16}"
+        placeholder="Enter card.."
+        required
+      />
+      <textarea
+        class="modal-form-massage"
+        name="user-comment"
+        placeholder="Enter comments..."
+      ></textarea>
+    </span>
+    <button class="modal-btn-submit" type="submit">submit</button>
+  </form>
+  <div class="fon-img"></div>
 </div>
