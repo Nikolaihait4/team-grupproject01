@@ -184,12 +184,12 @@
     left: 32px;
   }
 }
-/* Desktop */
+/* Desktop */ 
 @media only screen and (min-width: 1280px) {
   .hero-text {
     position: absolute;
     width: 222px;
-    top: -343px;
+    top: -458px; 
     left: 62px;
   }
 }
@@ -212,7 +212,7 @@
 @media only screen and (min-width: 1280px) {
   .watermelow {
     position: absolute;
-    top: -191px;
+    top: -306px;
     left: 62px;
   }
 }
@@ -235,7 +235,7 @@
 @media only screen and (min-width: 1280px) {
   .basket-strawberry {
     position: absolute;
-    top: -415px;
+    top: -530px;
     right: 94px;
   }
 }
@@ -319,7 +319,7 @@
     height: 84px;
     justify-content: end;
     position: absolute;
-    top: 16px;
+    top: -99px;
     right: 64px;
   }
 }
