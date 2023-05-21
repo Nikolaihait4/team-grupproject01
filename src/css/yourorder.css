@@ -272,7 +272,7 @@
         right: -179px;
         width: 469px;
         height: 467px;
-        background-image: url(../img/fruits/order/fon-img-t@1x.png);
+        background-image: url(../img/order/fon-img-t@1x.png);
         background-size: 469px 467px;
     }
 
@@ -280,7 +280,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .fon-img {
-            background-image: url(../img/fruits/order/fon-img-t@2x.png);
+            background-image: url(../img/order/fon-img-t@2x.png);
         }
     }
 }
@@ -309,7 +309,7 @@
         right: 0;
         width: 471px;
         height: 458px;
-        background-image: url(../img/fruits/order/fon-img-d@1x.png);
+        background-image: url(../img/order/fon-img-d@1x.png);
         background-size: 471px 458px;
     }
 
@@ -317,7 +317,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .fon-img {
-            background-image: url(../img/fruits/order/fon-img-d@2x.png);
+            background-image: url(../img/order/fon-img-d@2x.png);
         }
     }
 }
