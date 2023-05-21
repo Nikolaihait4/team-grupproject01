@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   z-index: 10;
-  /* поставив 10, щоб не перекривав модалки */
   background-color: var(--white-color);
   width: 100%;
 }
@@ -115,6 +114,7 @@
   background-color: transparent;
   transform: translateY(0);
   transition: transform 250ms linear;
+  stroke: var(--red-color);
 }
 
 @media only screen and (min-width: 768px) {
@@ -129,10 +129,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10;
+  z-index: 9;
   background-color: var(--red-color);
   display: block;
-  padding-top: 276px;
+  padding-top: 176px;
   transform: translateX(101%);
   transition: transform 250ms linear;
 }
