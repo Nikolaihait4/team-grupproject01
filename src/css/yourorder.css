@@ -10,33 +10,8 @@
 }
 
 .order-modal {
-    position: absolute;
-    top: 79%;
-    left: 50%;
-    transform: translate(-50%, 50%);
     overflow: hidden;
-}
 
-.backdrop {
-    /* скрыл окно */
-    opacity: 0;
-    visibility: hidden;
-
-    position: fixed;
-    z-index: 1000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--black-color-alfa);
-}
-
-.modal-window {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
     width: 335px;
     padding: 20px;
     background-color: var(--white-color);
