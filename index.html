@@ -26,7 +26,7 @@
     <!-- CSS-стили -->
     
     <script type="module" crossorigin src="/team-grupproject01/assets/index-10f9b415.js"></script>
-    <link rel="stylesheet" href="/team-grupproject01/assets/index-e507a755.css">
+    <link rel="stylesheet" href="/team-grupproject01/assets/index-b7cd3d78.css">
   </head>
   <body>
     <!-- Header -->
@@ -48,7 +48,7 @@
       </nav>
       <a href="" class="logo">
         <svg class="logo-icon" width="156" height="18">
-          <use href="/team-grupproject01/assets/icon-a8c2a4b7.svg#icon-logo"></use>
+          <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-logo"></use>
         </svg>
       </a>
     </div>
@@ -56,19 +56,19 @@
     <div class="mob-menu-btn-box">
       <button class="mob-menu-btn js-open-menu" type="button" >
         <svg class="mob-menu-icon" width="24" height="24">
-          <use href="/team-grupproject01/assets/icon-a8c2a4b7.svg#icon-burger-menu"></use>
+          <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-burger-menu"></use>
         </svg>
       </button>
       <button class="mob-menu-btn js-close-menu hidden" type="button" >
         <svg class="mob-menu-close-btn" width="24" height="24">
-          <use href="/team-grupproject01/assets/icon-a8c2a4b7.svg#icon-cross"></use>
+          <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-cross"></use>
         </svg>
       </button>
     </div>
     <!-- ^/mob menu buttopns -->
     <a class="basket">
       <svg class="basket-icon" width="24" height="24">
-        <use href="/team-grupproject01/assets/icon-a8c2a4b7.svg#icon-basket"></use>
+        <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-basket"></use>
       </svg>
     </a>
   </div>
@@ -272,7 +272,7 @@
     </ul>
     <button class="button-title js-open-modal" type="button" data-modal="1">
       <svg class="fruits-icon" width="14" height="14">
-        <use href="/team-grupproject01/assets/icon-a8c2a4b7.svg#icon-Vector"></use>
+        <use href="/team-grupproject01/assets/icon-b9efa69a.svg#icon-Vector"></use>
       </svg>
       ORDER
     </button>
@@ -361,7 +361,156 @@
 
     <!-- Modal window -->
     <!-- Yourorder-section6 -->
-    <section>Your Order</section>
+    <div class="backdrop" data-modal>
+  <div class="modal-window">
+    <h1 class="modal-title-text">Your Order</h1>
+    <button class="modal-btn-close" type="button" data-modal-close>
+      <svg class="icon" width="24" height="24">
+        <use href="../img/icon.svg#icon-cross"></use>
+      </svg>
+    </button>
+    <form class="modal-form">
+      <ul class="modal-order-list">
+        <li class="modal-order-item">
+          <label class="order order-strawberry">
+            <span class="order-title">Strawberry Basket</span>
+            <span class="order-text">Plant</span>
+            <img
+              class="order-img"
+              srcset="
+                ../img/fruits/order/img-1_88.png   88w,
+                ../img/fruits/order/img-1_133.png 133w,
+                ../img/fruits/order/img-1_173.png 173w,
+                ../img/fruits/order/img-1_176.png 176w,
+                ../img/fruits/order/img-1_266.png 266w,
+                ../img/fruits/order/img-1_346.png 346w
+              "
+              sizes="
+                (min-width: 1280px) 173px,
+                (min-width: 768px) 133px,
+                (max-width: 767px) 88px"
+              src="../img/fruits/order/img-1-88.png"
+              alt="Strawberry Basket"
+              loading="lazy"
+            />
+            <input
+              class="order-input visually-hidden"
+              type="checkbox"
+              name="strawberry-basket"
+              checked
+            />
+            <span class="order-input-cust">
+              <svg class="check-icon" width="6" height="6">
+                <use href="../img/icon.svg#icon-pick"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+        <li class="modal-order-item">
+          <label class="order order-apple">
+            <span class="order-title">Apple Basket</span>
+            <span class="order-text">Plant</span>
+            <img
+              class="order-img"
+              srcset="
+                ../img/fruits/order/img-2_106.png 106w,
+                ../img/fruits/order/img-2_172.png 172w,
+                ../img/fruits/order/img-2_212.png 212w,
+                ../img/fruits/order/img-2_229.png 229w,
+                ../img/fruits/order/img-2_344.png 344w,
+                ../img/fruits/order/img-2_458.png 458w
+              "
+              sizes="
+                (min-width: 1280px) 229px,
+                (min-width: 768px) 172px,
+                (max-width: 767px) 106px"
+              src="../img/fruits/order/img-2-106.png"
+              alt="Apple Baske"
+              loading="lazy"
+            />
+            <input
+              class="order-input visually-hidden"
+              type="checkbox"
+              name="strawberry-basket"
+            />
+            <span class="order-input-cust">
+              <svg class="check-icon" width="6" height="6">
+                <use href="../img/icon.svg#icon-pick"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+        <li class="modal-order-item">
+          <label class="order order-fruits">
+            <span class="order-title">Fruits Basket</span>
+            <span class="order-text">Plant</span>
+            <img
+              class="order-img"
+              srcset="
+                ../img/fruits/order/img-3_107.png 107w,
+                ../img/fruits/order/img-3_172.png 172w,
+                ../img/fruits/order/img-3_214.png 214w,
+                ../img/fruits/order/img-3_229.png 229w,
+                ../img/fruits/order/img-3_344.png 344w,
+                ../img/fruits/order/img-3_458.png 458w
+              "
+              sizes="
+                (min-width: 1280px) 229px,
+                (min-width: 768px) 172px,
+                (max-width: 767px) 107px"
+              src="../img/fruits/order/img-3-107.png"
+              alt="Fruits Basket"
+              loading="lazy"
+            />
+            <input
+              class="order-input visually-hidden"
+              type="checkbox"
+              name="strawberry-basket"
+            />
+            <span class="order-input-cust">
+              <svg class="check-icon" width="6" height="6">
+                <use href="../img/icon.svg#icon-pick"></use>
+              </svg>
+            </span>
+          </label>
+        </li>
+      </ul>
+      <span class="modal-input-decor">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          pattern="^[A-Za-zА-Яа-яґҐЁёІіЇїЄє][A-Za-zА-Яа-яґҐЁёІіЇїЄє'’ʼ0-9- ]+$"
+          placeholder="Enter full name..."
+          required
+        />
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user-email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          placeholder="Enter email..."
+          required
+        />
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-card"
+          pattern="[0-9]{13,16}"
+          placeholder="Enter card.."
+          required
+        />
+        <textarea
+          class="modal-form-massage"
+          name="user-comment"
+          placeholder="Enter comments..."
+        ></textarea>
+      </span>
+      <button class="modal-btn-submit" type="submit">submit</button>
+    </form>
+    <div class="fon-img"></div>
+  </div>
+</div>
 
 
     <!-- Thankyou-section7 -->
