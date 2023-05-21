@@ -1,1 +1,86 @@
-<section>Contact section</section>
+<section class="contact-section">
+  <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+  <div class="contacts-pic">
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        sizes="(min-width: 1280px) 792px, 100vw"
+        srcset="
+          /img/img-contacts/contacts-1desk@1x.jpg  792w,
+          /img/img-contacts/contacts-1desk@2x.jpg 1584w
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        sizes="(min-width: 768px) 344px, 100vw"
+        srcset="
+          /img/img-contacts/contacts-1tab@1x.jpg 344w,
+          /img/img-contacts/contacts-1tab@2x.jpg 688w
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        sizes="(min-width: 280px) 335px, 100vw"
+        srcset="
+          /img/img-contacts/contacts-1mob@1x.jpg 335w,
+          /img/img-contacts/contacts-1mob@2x.jpg 670w
+        "
+      />
+      <img
+        class="contacts-img-1"
+        src="/img/img-contacts/contacts-1mob@1x.jpg"
+        alt="melon"
+      />
+    </picture>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        sizes="(min-width: 1280px) 792px, 100vw"
+        srcset="
+          /img/img-contacts/contacts-2desk@1x.jpg  792w,
+          /img/img-contacts/contacts-2desk@2x.jpg 1584w
+        "
+      />
+      <source
+        media="(min-width: 768px)"
+        sizes="(min-width: 768px) 344px, 100vw"
+        srcset="
+          /img/img-contacts/contacts-2tab@1x.jpg 344w,
+          /img/img-contacts/contacts-2tab@2x.jpg 688w
+        "
+      />
+
+      <img
+        class="contacts-img-2"
+        src="img/img-contacts/contacts-2tab@1x.jpg"
+        alt="blueberry"
+      />
+    </picture>
+  </div>
+  <div class="contacts-block">
+    <p class="contacts-text">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <form class="contacts-form">
+      <div class="contacts-form-field">
+        <input
+          class="contacts-input"
+          type="email"
+          name="contacts-email"
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
+          placeholder=" "
+          id="contacts-email"
+        />
+        <label class="contacts-label" for="contacts-email"
+          >Enter email...</label
+        >
+        <button class="contacts-btn js-open-modal" data-modal="1" type="submit">
+          send
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
