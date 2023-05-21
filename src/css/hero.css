@@ -4,7 +4,7 @@
   padding-bottom: 80px;
   margin-top: 106px;
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .hero {
     padding-bottom: 0;
   }
@@ -33,10 +33,10 @@
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .hero-title {
-width: 704px;
-height: 168px;
-font-size: 50px;
-line-height: 1.08;
+    width: 704px;
+    height: 168px;
+    font-size: 50px;
+    line-height: 1.08;
   }
 }
 /* Desktop */
@@ -47,12 +47,12 @@ line-height: 1.08;
     height: 198px;
   }
 }
-.hero-img{
+.hero-img {
   position: absolute;
   top: 0;
   z-index: -1;
- left: 50%;
- transform: translate(-50%) scale(1);
+  left: 50%;
+  transform: translate(-50%) scale(1);
 }
 /* Screen >375px */
 @media only screen and (min-width: 375px) and (max-width: 767px) {
@@ -61,14 +61,14 @@ line-height: 1.08;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-   .hero-img-tab{
+  .hero-img-tab {
     display: none;
   }
 }
 /* Screen 320-374px */
 @media only screen and (max-width: 374px) {
   .hero-img {
-     max-width: 285px;
+    max-width: 285px;
   }
 }
 /* Screen >768px */
@@ -77,20 +77,20 @@ line-height: 1.08;
     display: none;
   }
 }
-.hero-img-tab{
+.hero-img-tab {
   position: absolute;
   top: -13px;
   z-index: -1;
- left: 50%;
- transform: translate(-50%) scale(1);
+  left: 50%;
+  transform: translate(-50%) scale(1);
 }
-.hero-baner{
-    margin-bottom: 366px;
+.hero-baner {
+  margin-bottom: 366px;
 }
 /* Screen 320-374px */
 @media only screen and (max-width: 374px) {
   .hero-baner {
-     margin-bottom: 328px;
+    margin-bottom: 328px;
   }
 }
 /* Tablet */
@@ -105,7 +105,7 @@ line-height: 1.08;
     margin-bottom: 483px;
   }
 }
-.button-hero{
+.button-hero {
   display: block;
   border: none;
   border-radius: 100px;
@@ -114,10 +114,10 @@ line-height: 1.08;
   height: 80px;
   text-align: center;
   font-weight: 500;
-font-size: 20px;
-line-height: 1;
-letter-spacing: -0.04em;
-text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
   transform: rotate(-14deg);
   color: var(--red-color);
@@ -130,14 +130,14 @@ text-transform: uppercase;
 /* Screen >768px */
 @media only screen and (min-width: 768px) {
   .button-hero {
-      width: 114px;
-  height: 114px;
-  font-size: 28px;
+    width: 114px;
+    height: 114px;
+    font-size: 28px;
   }
 }
 .button-hero:hover,
-.button-hero:focus{
-   color: var(--color-button-order);
+.button-hero:focus {
+  color: var(--color-button-order);
 }
 
 .hero-fruits {
@@ -151,7 +151,7 @@ text-transform: uppercase;
   width: 335px;
 }
 /* Tablet */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .hero-fruits {
     position: relative;
     width: 768px;
@@ -202,7 +202,7 @@ text-transform: uppercase;
 }
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .watermelow  {
+  .watermelow {
     position: absolute;
     top: 179px;
     left: 64px;
@@ -210,7 +210,7 @@ text-transform: uppercase;
 }
 /* Desktop */
 @media only screen and (min-width: 1280px) {
-  .watermelow  {
+  .watermelow {
     position: absolute;
     top: -191px;
     left: 62px;
@@ -278,9 +278,9 @@ text-transform: uppercase;
   margin-top: 17px;
 }
 .hero-tegs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 38px;
   border: 1px solid;
   border-radius: 1000px;
@@ -288,7 +288,7 @@ text-transform: uppercase;
 /* Mobile */
 @media only screen and (max-width: 767px) {
   .hero-tegs {
-     width: 132px;
+    width: 132px;
   }
 }
 /* Tablet, Desktop*/
@@ -297,11 +297,11 @@ text-transform: uppercase;
     padding: 10px 30px;
   }
 }
-.hero-tegs-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    justify-content: center;
+.hero-tegs-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
 }
 @media only screen and (min-width: 768px) {
   .hero-tegs-list {
