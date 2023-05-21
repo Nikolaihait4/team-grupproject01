@@ -2,11 +2,13 @@
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 10;
+  /* поставив 10, щоб не перекривав модалки */
   background-color: var(--white-color);
   width: 100%;
 }
-.header > .conteiner {
+
+.header>.conteiner {
   max-width: 375px;
   padding: 16px 20px;
   display: flex;
@@ -14,32 +16,38 @@
   align-items: center;
   margin: 0 auto;
 }
+
 @media only screen and (min-width: 768px) {
-  .header > .conteiner {
+  .header>.conteiner {
     max-width: 768px;
     padding: 16px 32px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
-  .header > .conteiner {
+  .header>.conteiner {
     max-width: 1280px;
   }
 }
+
 .header-left-side {
   display: flex;
   justify-content: space-between;
   height: 18px;
 }
+
 @media only screen and (min-width: 768px) {
   .header-left-side {
     width: 450px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .header-left-side {
     width: 686px;
   }
 }
+
 .nav-list {
   display: none;
 }
@@ -50,6 +58,7 @@
     gap: 16px;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .nav-list {
     gap: 20px;
@@ -63,6 +72,7 @@
   letter-spacing: -0.04em;
   color: var(--red-color);
 }
+
 .logo {
   width: 156px;
   height: 18px;
@@ -71,6 +81,7 @@
 .basket {
   display: none;
 }
+
 @media only screen and (min-width: 768px) {
   .basket {
     display: block;
@@ -79,6 +90,7 @@
     fill: var(--red-color);
   }
 }
+
 /**
   **|============================
   **| Mobile menu
@@ -90,6 +102,7 @@
   height: 24px;
   overflow: hidden;
 }
+
 .mob-menu-btn {
   position: absolute;
   top: 0;
@@ -103,11 +116,13 @@
   transform: translateY(0);
   transition: transform 250ms linear;
 }
+
 @media only screen and (min-width: 768px) {
   .mob-menu-btn {
     display: none;
   }
 }
+
 .mob-menu {
   position: fixed;
   top: 0;
@@ -121,6 +136,7 @@
   transform: translateX(101%);
   transition: transform 250ms linear;
 }
+
 /* @media only screen and (min-width: 768px) {
   .mob-menu {
     display: none;
@@ -129,6 +145,7 @@
 .mob-menu.is-open {
   transform: translateX(0);
 }
+
 .mob-nav-list {
   text-align: center;
   display: flex;
@@ -137,10 +154,12 @@
   gap: 16px;
   margin: 0 auto;
 }
+
 .mob-nav-item {
   color: var(--white-color);
   fill: var(--white-color);
 }
+
 .mob-basket {
   display: block;
   fill: var(--white-color);
@@ -149,6 +168,7 @@
 .js-open-menu.hidden {
   transform: translateY(101%);
 }
+
 .js-close-menu.hidden {
   transform: translateY(-101%);
 }

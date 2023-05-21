@@ -9,22 +9,12 @@
     clip: rect(0 0 0 0);
 }
 
-.backdrop {
-    position: fixed;
-    z-index: 1000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--black-color-alfa);
-}
-
-.modal-window {
+.order-modal {
     position: absolute;
-    top: 50%;
+    top: 80%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, 50%);
+    overflow: hidden;
 
     width: 335px;
     padding: 20px;
@@ -141,10 +131,6 @@
         border-color var(--transition-duration-and-func); */
 }
 
-.order-input:focus+.order-input-cust {
-    /* border-color: var(--black-color); */
-}
-
 .check-icon {
     opacity: 0;
     fill: currentColor;
@@ -214,10 +200,9 @@
 }
 
 @media only screen and (min-width: 768px) {
-    .modal-window {
+    .order-modal {
         width: 704px;
         padding: 40px;
-        overflow: hidden;
     }
 
     .modal-title-text {
@@ -286,7 +271,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .modal-window {
+    .order-modal {
         width: 891px;
     }
 
