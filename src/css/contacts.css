@@ -1,4 +1,5 @@
-.contact-section {    
+.contact-section {  
+    width: 375px;  
     padding-top: 53px;
     padding-bottom: 80px;
     margin-left: auto;
@@ -7,7 +8,7 @@
 }
 @media only screen and (min-width: 768px) {
 .contact-section {   
-    max-width: 768px;
+    width: 768px;
     padding-left: 32px;
     padding-right: 32px;    
     padding-top: 79px;
@@ -17,7 +18,7 @@
 }
 @media only screen and (min-width: 1280px) {
 .contact-section {
-    max-width: 1280px;        
+    width: 1280px;        
     padding-top: 89px;
     padding-bottom: 150px;
     }
