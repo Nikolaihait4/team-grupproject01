@@ -1,270 +1,257 @@
-
 /* CONTAINER */
 .section-steps.container {
-    max-width: 375px;
-    padding-left: 20px;
-    padding-right: 20px;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .section-steps.container {
-        min-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .section-steps.container {
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .section-steps.container {
-        min-width: 1280px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .section-steps.container {
+    min-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
-
 
 /* SECTION */
 .section-steps {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
-    .section-steps {
-        display: flex;
-        justify-content: center;
+  .section-steps {
+    display: flex;
+    justify-content: center;
 
-        padding-left: 72px;
-        padding-right: 72px;
-    }
+    padding-left: 72px;
+    padding-right: 72px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .sectio-steps {
-        padding-left: 32px;
-        padding-right: 33px;
-    }
+  .sectio-steps {
+    padding-left: 32px;
+    padding-right: 33px;
+  }
 }
-
 
 /* TITLE */
 .steps-title {
-    display: block;
-    max-width: 335px;
-    height: auto;
-    margin-bottom: 14px;
+  display: block;
+  max-width: 335px;
+  height: auto;
+  margin-bottom: 14px;
 
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 500;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
 
-    font-size: 28px;
-    line-height: 1;
-    letter-spacing: -0.04em;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
 
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-    .steps-title {
-        max-width: 624px;
-        font-size: 40px;
-        line-height: 1.1;
-    }
+  .steps-title {
+    max-width: 624px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .steps-title {
-        max-width: 624px;
-    }
+  .steps-title {
+    max-width: 624px;
+  }
 }
-
 
 /* DESCRIPTION */
 .steps-description {
-    display: block;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
 
-    margin-bottom: 44px;
-    max-width: 335px;
-    font-size: 14px;
+  margin-bottom: 44px;
+  max-width: 335px;
+  font-size: 14px;
 
-    line-height: 1.29;
-    letter-spacing: -0.04em;
-    color: #FFFFFF;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: #ffffff;
 }
 
 @media screen and (min-width: 768px) {
-    .steps-description {
-        max-width: 509px;
-        height: 54px;
-    }
+  .steps-description {
+    max-width: 509px;
+    height: 54px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .steps-description {
-        max-width: 509px;
-        height: 54px;
-    }
+  .steps-description {
+    max-width: 509px;
+    height: 54px;
+  }
 }
-
 
 /* CONTENT */
 .steps-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
 }
-
 
 /* BLOCKS */
 .blocks {
-    margin-bottom: 44px;
+  margin-bottom: 44px;
 }
-
 
 /* LIST */
 .steps-list {
-    display: block;
-    margin-bottom: 44px;
+  display: block;
+  margin-bottom: 44px;
 }
 
 @media screen and (min-width: 768px) {
-    .steps-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-bottom: 80px;
-    }
+  .steps-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .steps-list {
-        flex-wrap: nowrap;
-        gap: 24px;
-    }
+  .steps-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }
-
-
 
 /* ITEM */
 .steps-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    width: 100%;
-    height: 112px;
-    margin-bottom: 20px;
+  width: 100%;
+  height: 112px;
+  margin-bottom: 20px;
 
-    background-color: #FFFFFF;
-    border-radius: 20px;
+  background-color: #ffffff;
+  border-radius: 20px;
 }
 
 .steps-item:not(:last-child) {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .steps-item {
-        width: 389px;
-        height: 128px;
-        margin-left: 117.5px;
-        margin-right: 117.5px;
-        margin-bottom: 0;
-    }
+  .steps-item {
+    width: 389px;
+    height: 128px;
+    margin-left: 117.5px;
+    margin-right: 117.5px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .steps-item {
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-    }
+  .steps-item {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
 }
 
-
-
 .oval {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    height: 48px;
+  height: 48px;
 
-    border-radius: 200px;
-    gap: 14px;
-
+  border-radius: 200px;
+  gap: 14px;
 }
 
 .number {
-    font-weight: 400;
-    font-size: 18px;
-    font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
 
-    line-height: 24px;
-    text-align: center;
-    letter-spacing: -0.04em;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.04em;
 
-    color: #FFFFFF;
-    border-radius: 200px;
+  color: #ffffff;
+  border-radius: 200px;
 }
 
 .number-one {
-    padding: 12px 28px;
-    background-color: #AE1332;
+  padding: 12px 28px;
+  background-color: #ae1332;
 }
 
 .number-two {
-    padding: 12px 18px;
-    background-color: #A4CB66;
+  padding: 12px 18px;
+  background-color: #a4cb66;
 }
 
 .number-three {
-    padding: 12px 28px;
-    background-color: #F5CE13;
+  padding: 12px 28px;
+  background-color: #f5ce13;
 }
 
 .instruction {
-    max-width: 145px;
-    text-align: start;
+  max-width: 145px;
+  text-align: start;
 
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
 
-    line-height: 18px;
-    letter-spacing: -0.04em;
+  line-height: 18px;
+  letter-spacing: -0.04em;
 
-    color: #000000;
+  color: #000000;
 }
-
 
 /* IMAGE */
 .steps-image {
-    width: 335px;
-    height: 476px;
-    border-radius: 20px;
+  width: 335px;
+  height: 476px;
+  border-radius: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .steps-image {
-        width: 704px;
-    }
+  .steps-image {
+    width: 704px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .steps-image {
-        width: 860px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .steps-image {
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
