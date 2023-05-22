@@ -50,13 +50,16 @@ body {
   min-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* .container {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 } */
 
 @media screen and (min-width: 768px) {
