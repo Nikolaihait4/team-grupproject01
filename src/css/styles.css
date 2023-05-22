@@ -44,10 +44,34 @@ body {
   background-color: #ae1332;
 }
 
+/* CONTAINER */
+
 .container {
   min-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+/* .container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+@media screen and (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    min-width: 1280px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 }
 
 /* Стили для подложки */
@@ -79,8 +103,7 @@ body {
   height: 100%;
   background-color: var(--black-color-alfa);
 
-  transition:
-    opacity var(--transition-primary),
+  transition: opacity var(--transition-primary),
     visibility var(--transition-primary);
 }
 
