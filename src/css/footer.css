@@ -8,14 +8,15 @@
 }
 
 .container {
-  min-width: 375px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -23,7 +24,7 @@
 
 @media only screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
   }
 }
 
