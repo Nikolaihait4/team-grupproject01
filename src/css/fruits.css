@@ -1,60 +1,6 @@
-@import url('./reset.css');
-@import url('./fruits.css');
-
-:root {
-  /* Main-color */
-  --white-color: #ffffff;
-  --black-color: #000000;
-  --red-color: #ae1332;
-  --green-color: #a4cb66;
-  --yellov-color: #f5ce13;
-  --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --color-strawberry: #f8766b;
-  --color-Banana: #edd251;
-  --color-Watermelon: #9dc262;
-  --color-Lime: #bfd663;
-  --color-Apple: #e93f29;
-  --color-Peach: #db4f4b;
-  --color-Plums: #9b5366;
-  --color-Orange: #f47f4c;
-  --color-Kiwi: #98b37e;
-  --color-button-order: #9dc262;
-}
-
-body {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
-  color: #ffffff;
-  background-color: #ae1332;
-}
-
-/* Tablet styles & > */
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .container {
-    width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-/* Desktop styles & > */
-@media only screen and (min-width: 1280px) {
-  .container {
-    width: 1280px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 /* COMPONENT */
 .fruits {
-  padding-top: 80px;
   padding-bottom: 80px;
-  padding-right: 0;
-  padding-left: 0;
 }
 
 .fruits-container {
@@ -98,7 +44,6 @@ body {
   }
   .fruits {
     display: flex;
-    padding-top: 144px;
     padding-bottom: 144px;
   }
 }
@@ -116,7 +61,6 @@ body {
   }
   .fruits {
     display: flex;
-    padding-top: 150px;
     padding-bottom: 150px;
   }
 }
@@ -202,7 +146,7 @@ body {
   .fruits-img {
     margin-left: 47px;
     margin-right: 47px;
-}
+  }
 }
 
 .menu-fruits {
@@ -292,14 +236,10 @@ body {
 }
 
 .fruits-icon {
-  fill: var(--white-color);
+  fill: currentColor;
   margin-right: 4px;
   width: 14px;
   height: 14px;
-}
-.fruits-icon:active {
-  fill: var(--color-button-order);
-  transition: fill var(--transition-duration-and-func);
 }
 
 .button-title {
@@ -330,7 +270,7 @@ body {
   background-color: var(--white-color);
 }
 
-@media only screen and (min-width: 768px) and (min-width: 1280px) {
+@media only screen and (min-width: 768px) {
   .button-title {
     min-width: 114px;
     min-height: 114px;
@@ -341,9 +281,5 @@ body {
   .button-title:focus {
     color: var(--color-button-order);
     background-color: var(--white-color);
-  }
-  .fruits-icon:hover,
-  .fruits-icon:focus {
-    fill: var(--color-button-order);
   }
 }
