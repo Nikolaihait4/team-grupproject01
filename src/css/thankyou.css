@@ -1,20 +1,11 @@
 .modal-thank {
-  /* скрыл окно */
-  opacity: 0;
-  visibility: hidden;
- overflow: auto;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  margin-left: 0;
-  margin-right: 0;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1);
+
   width: 600px;
   max-height: 545px;
   padding: 68px 104px 80px 105px;
-  
+
   background-color: var(--pink-color);
   border-radius: 20px;
 }
@@ -66,49 +57,4 @@
   line-height: 1.28;
   letter-spacing: -0.04em;
   text-align: center;
-}
-
-/* Пример стилей для модального окна */
-
-/* Стили для модальных окон */
-
-.modal {
-  /* Скрываем окна  */
-  /* opacity: 0;
-  visibility: hidden; */
-
-  /*  Установаем ширину окна  */
-  /* width: 100%;
-  max-width: 500px; */
-
-  /*  Центрируем и задаем z-index */
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 30; */
-  /* Должен быть выше чем у подложки*/
-
-  /*  Побочные стили   */
-  /* box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2);
-  text-align: center;
-  padding: 30px;
-  border-radius: 3px;
-  background-color: #fff;
-  transition: 0.3s all; */
-}
-
-/* Стили для активных классов подложки и окна */
-
-.modal.active,
-.overlay.active {
-  opacity: 1;
-  visibility: visible;
-}
-
-/* Стили для кнопки закрытия */
-
-
-@media only screen and (min-width: 768px) {
-  .thank-text {}
 }
