@@ -1,24 +1,24 @@
-.contacts-container {  
-    /* width: 375px;   */
+.contact-section {  
+    width: 375px;  
     padding-top: 53px;
     padding-bottom: 80px;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 }
 @media only screen and (min-width: 768px) {
-.contacts-container {   
-    /* width: 768px;
+.contact-section {   
+    width: 768px;
     padding-left: 32px;
-    padding-right: 32px;     */
+    padding-right: 32px;    
     padding-top: 79px;
     padding-bottom: 144px;    
     
   }
 }
 @media only screen and (min-width: 1280px) {
-.contacts-container {
-    /* width: 1280px;         */
+.contact-section {
+    width: 1280px;        
     padding-top: 89px;
     padding-bottom: 150px;
     }
@@ -64,8 +64,9 @@
     gap: 24px;
     }
 }
-.contacts-img-1 {      
-    min-width: 335px;
+.contacts-img-1 {        
+    margin-left: auto;
+    margin-right: auto;    
     border-radius: 20px; 
 }
 .contacts-img-2 {
