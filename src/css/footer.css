@@ -7,92 +7,59 @@
   width: 100%;
 }
 
-.container {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+.footer-container {
   align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  .footer-container {
+    display: block;
+    padding: 0 108px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-container {
+    width: 1280px;
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-container {
-    display: flex;
-    padding: 0 108px;
-    justify-content: space-between;
-    align-items: center
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .footer-container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-
 /*Картинка та логотип*/
-
-.footer-div {
-  display: block;
-  margin-bottom: 24px;
-}
 
 @media only screen and (min-width: 768px) {
   .footer-div {
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media only screen and (min-width: 1280px) {
   .footer-div {
     display: flex;
+    justify-content: space-between;
   }
 }
 
-.footer-list {
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-  gap: 20px;
+@media only screen and (max-width: 767px) {
+.footer-div-logo{
   margin-bottom: 24px;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .footer-list {
-    margin-bottom: 80px;
-  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-list {
-    margin-right: 243px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .footer-item {
-    text-align: left;
+  .footer-div-logo{
+    display: flex;
   }
 }
 
 .footer-img {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -114,6 +81,26 @@
   align-items: center;
   padding: 0px;
   gap: 8px;
+  margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer-link {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 1280px){
+  .footer-link{
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-div-logo-and-text{
+    display: block;
+    margin-right: 243px;
+  }
 }
 
 .footer-svg {
@@ -133,11 +120,29 @@
 
 /*Меню*/
 
+.footer-menu{
+  margin-bottom: 44px;
+}
+
 .footer-menu-list {
   display: flex;
   gap: 20px;
   justify-content: center;
   align-items: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-menu-list {
+      margin-bottom: 44px;
+      justify-content: center;
+      align-items: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-menu-list{
+    margin-bottom: 27px;
+  }
 }
 
 .footer-menu-item {
@@ -149,8 +154,17 @@
 
 /*Соціальні мережі*/
 
-.footer-socials{
-  margin-bottom: 40px;
+@media only screen and (min-width: 768px) and (max-width: 1279px){
+.footer-socials {
+    margin-left: 171px;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-socials{
+    margin-bottom: 15px;
+  }
 }
 
 .footer-socials-div {
@@ -235,6 +249,7 @@
 @media only screen and (min-width: 768px) {
   .footer-address-list {
     text-align: left;
+
   }
 }
 
@@ -247,4 +262,10 @@
 
 .footer-address-item:not(:last-child) {
   margin-bottom: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-address-item:not(:last-child) {
+      margin-bottom: 20px;
+    }
 }
