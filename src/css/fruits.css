@@ -29,7 +29,7 @@
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1279px) {
+@media only screen and (min-width: 768px) {
   .fruits-container {
     width: 624px;
   }
@@ -61,7 +61,6 @@
   .fruits-title {
     font-size: 40px;
     line-height: 1.1;
-    flex-direction: column;
   }
   .fruits {
     display: flex;
@@ -219,6 +218,7 @@
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .menu-fruits {
     max-width: 704px;
+    flex-direction: row;
     gap: 16px;
   }
   .fruits-item {
@@ -233,9 +233,7 @@
 @media only screen and (min-width: 1280px) {
   .menu-fruits {
     max-width: 1215px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
     gap: 24px;
   }
   .fruits-item {
