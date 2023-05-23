@@ -1,9 +1,31 @@
-<section class="container hero">
-  <div class="hero-baner">
+<section>
+  <div class="container hero">
+    <div class="hero-baner">
     <h2 class="hero-title">
       fresh harvest box<br />is your one-stop place for a delicious fruit basket
     </h2>
-    <img
+    <picture>
+  <!-- Tablet, desktop screen -->
+  <source
+    media="(min-width: 768px)"
+     srcset="./img/hero/hero-img-tab.png 1x, ./img/hero/hero-img-tab_2x.png 2x"
+    type="image/png"
+  />
+  <!-- Mobile screen -->
+  <source
+    media="(max-width: 767px)"
+    srcset="./img/hero/hero-img-mob.png 1x, ./img/hero/hero-img-mob_2x.png 2x"
+    type="image/png"
+  />
+  <img
+    class="hero-img"
+      src="./img/hero/hero-img-mob.png"
+      alt="girl with fruit"
+      loading="lazy"
+  />
+</picture>
+
+    <!-- <img
       class="hero-img"
       srcset="./img/hero/hero-img-mob.png 1x, ./img/hero/hero-img-mob_2x.png 2x"
       src="./img/hero/hero-img-mob.png"
@@ -16,7 +38,7 @@
       src="./img/hero/hero-img-tab.png"
       alt="girl with fruit"
       loading="lazy"
-    />
+    /> -->
   </div>
   <button class="button-hero" type="button">
     <a href="#fruits">shop now</a>
@@ -76,5 +98,6 @@
         antioxidants, making them a delicious and healthy snack
       </p>
     </div>
+  </div>
   </div>
 </section>
