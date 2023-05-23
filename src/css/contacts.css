@@ -1,16 +1,10 @@
-.contacts-container {
-  /* width: 375px;   */
+.contacts-container {  
   padding-top: 53px;
-  padding-bottom: 80px;
-  /* margin-left: auto;
-    margin-right: auto; */
+  padding-bottom: 80px; 
   position: relative;
 }
 @media only screen and (min-width: 768px) {
-  .contacts-container {
-    /* width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;     */
+  .contacts-container {  
     padding-top: 79px;
     padding-bottom: 144px;
   }
@@ -55,6 +49,7 @@
   .contacts-pic {
     display: flex;
     gap: 16px;
+    justify-content: center;
     padding-bottom: 80px;
   }
 }
@@ -66,6 +61,7 @@
 .contacts-img-1 {
   min-width: 335px;
   border-radius: 20px;
+  margin: 0 auto;
 }
 .contacts-img-2 {
   display: none;
