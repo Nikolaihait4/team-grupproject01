@@ -4,7 +4,7 @@
   background-color: var(--white-color);
   color: var(--red-color);
   padding: 80px 0;
-  width: 100%;
+  min-width: 375px;
 }
 
 .footer-container {
@@ -45,13 +45,13 @@
 }
 
 @media only screen and (max-width: 767px) {
-.footer-div-logo{
-  margin-bottom: 24px;
-}
+  .footer-div-logo {
+    margin-bottom: 24px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-div-logo{
+  .footer-div-logo {
     display: flex;
   }
 }
@@ -90,14 +90,14 @@
   }
 }
 
-@media only screen and (min-width: 1280px){
-  .footer-link{
+@media only screen and (min-width: 1280px) {
+  .footer-link {
     margin: 0;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-div-logo-and-text{
+  .footer-div-logo-and-text {
     display: block;
     margin-right: 243px;
   }
@@ -120,7 +120,7 @@
 
 /*Меню*/
 
-.footer-menu{
+.footer-menu {
   margin-bottom: 44px;
 }
 
@@ -133,14 +133,14 @@
 
 @media only screen and (max-width: 767px) {
   .footer-menu-list {
-      margin-bottom: 44px;
-      justify-content: center;
-      align-items: center;
-    }
+    margin-bottom: 44px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-menu-list{
+  .footer-menu-list {
     margin-bottom: 27px;
   }
 }
@@ -154,15 +154,15 @@
 
 /*Соціальні мережі*/
 
-@media only screen and (min-width: 768px) and (max-width: 1279px){
-.footer-socials {
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .footer-socials {
     margin-left: 171px;
     margin-bottom: 40px;
   }
 }
 
 @media only screen and (min-width: 1280px) {
-  .footer-socials{
+  .footer-socials {
     margin-bottom: 15px;
   }
 }
@@ -249,7 +249,6 @@
 @media only screen and (min-width: 768px) {
   .footer-address-list {
     text-align: left;
-
   }
 }
 
@@ -266,6 +265,6 @@
 
 @media only screen and (min-width: 768px) {
   .footer-address-item:not(:last-child) {
-      margin-bottom: 20px;
-    }
+    margin-bottom: 20px;
+  }
 }
