@@ -34,7 +34,6 @@
   --color-Kiwi: #98b37e;
   --color-button-order: #9dc262;
   --pink-color: #e03f5e;
-  --color-braun: #8E0000;
 }
 
 body {
@@ -47,25 +46,25 @@ body {
 
 /* CONTAINER */
 
-.container {
-  min-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /* .container {
-  max-width: 375px;
+  min-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 } */
 
+.container {
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -73,7 +72,7 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    min-width: 1280px;
+    max-width: 1280px;
     padding-left: 32px;
     padding-right: 32px;
   }
