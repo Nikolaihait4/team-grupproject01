@@ -70,7 +70,7 @@
 /* Screen >768px */
 @media only screen and (min-width: 768px) {
   .hero-img {
-     top: -13px;
+    top: -13px;
   }
 }
 
@@ -206,7 +206,7 @@
     position: absolute;
     top: -306px;
     left: 62px;
-     animation: move-to-right 800ms ease-in 1600ms both;
+    animation: move-to-right 800ms ease-in 1600ms both;
   }
 }
 .basket-strawberry {
@@ -230,7 +230,7 @@
     position: absolute;
     top: -530px;
     right: 94px;
-     animation: move-to-left 800ms ease-in 2600ms both;
+    animation: move-to-left 800ms ease-in 2600ms both;
   }
 }
 /* Animation */
