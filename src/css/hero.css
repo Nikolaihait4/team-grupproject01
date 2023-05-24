@@ -28,6 +28,8 @@
 @media only screen and (max-width: 374px) {
   .hero-title {
     font-size: 24px;
+    width: 280px;
+    margin: 0;
   }
 }
 /* Tablet */
@@ -64,7 +66,7 @@
 /* Screen 320-374px */
 @media only screen and (max-width: 374px) {
   .hero-img {
-    max-width: 285px;
+    max-width: 280px;
   }
 }
 /* Screen >768px */
