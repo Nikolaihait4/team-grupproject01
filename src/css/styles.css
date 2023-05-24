@@ -129,20 +129,13 @@ transition-delay: 1400ms;
   position: absolute;
   top: 10px;
   left: 50%;
-  /* transform: translateX(-50%) scale(0.2); */
-  transform: translate(-50%, 10px)  scale(1);
+  transform: translate(-50%, 10px)  scale(0.2);
 
 }
 
-
-
-.modal.active {
-  opacity: 1;
-  /* transform: translate(50%, 10px) scale(1); */
-  /* transform: translateX(-50%) scale(1); */
-  /* transition: transform 400ms ease-in 200ms, opacity 400ms ease-in 200ms; */
-/* }
-/* .backdrop.active .modal{ */
+/* Стиль для активного стану modal */
+ 
+.backdrop.active .modal{
   transform: translate(-50%, 10px) scale(1);
   transition: transform 400ms ease-in 200ms, opacity 400ms ease-in 200ms;
 }
