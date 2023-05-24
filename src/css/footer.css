@@ -4,7 +4,7 @@
   background-color: var(--white-color);
   color: var(--red-color);
   padding: 80px 0;
-  min-width: 375px;
+  /* min-width: 375px; */
 }
 
 .footer-container {
@@ -43,6 +43,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-div-logo {
     display: flex;
+    margin-right: 232px;
   }
 }
 
@@ -131,7 +132,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-menu-list {
     margin-bottom: 27px;
-    margin-right: 232px;
+    /* margin-right: 232px; */
   }
 }
 
