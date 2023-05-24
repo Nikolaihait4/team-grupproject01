@@ -137,6 +137,19 @@
   margin-left: auto;
 }
 
+.steps-item {
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(243, 250, 255, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(243, 250, 255, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(243, 250, 255, 0.2);
+}
+
+.steps-item:hover,
+.steps-item:focus {
+  box-shadow: inset 0 0 35px 5px rgba(0, 0, 0, 0.25),
+    inset 0 2px 1px 1px rgba(255, 255, 255, 0.9),
+    inset 0 -2px 1px 0 rgba(0, 0, 0, 0.25);
+}
+
 @media screen and (min-width: 768px) {
   .steps-list {
     margin-bottom: 80px;
