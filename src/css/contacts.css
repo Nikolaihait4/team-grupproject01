@@ -11,7 +11,7 @@
 }
 @media only screen and (min-width: 1280px) {
   .contact-section {
-    width: 1280px;
+    /* width: 1280px; */
     padding-top: 89px;
     padding-bottom: 150px;
   }
