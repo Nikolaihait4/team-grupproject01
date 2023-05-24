@@ -13,9 +13,15 @@
 
 @media only screen and (min-width: 768px) {
   .footer-container {
-    display: block;
+    display: flex;
     padding: 0 108px;
   }
+}
+
+@media only screen and (max-width: 1279px) {
+  .footer-container {
+      justify-content: space-between;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -28,25 +34,9 @@
 
 /*Картинка та логотип*/
 
-@media only screen and (min-width: 768px) {
-  .footer-div {
-    margin-bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width: 1280px) {
-  .footer-div {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
 @media only screen and (max-width: 767px) {
   .footer-div-logo {
-    margin-bottom: 24px;
+    margin-bottom: 44px;
   }
 }
 
@@ -131,10 +121,8 @@
   align-items: center;
 }
 
-
 @media only screen and (max-width: 767px) {
   .footer-menu-list {
-    margin-bottom: 44px;
     justify-content: center;
     align-items: center;
   }
@@ -143,6 +131,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-menu-list {
     margin-bottom: 27px;
+    margin-right: 232px;
   }
 }
 
@@ -151,23 +140,22 @@
   font-size: 14px;
   line-height: 1.3;
   letter-spacing: -0.04em;
-  transition: color var(--transition-duration-and-func), 
-  font-size var(--transition-duration-and-func),
-  font-weight var(--transition-duration-and-func);
 }
 
-.footer-menu-item:hover,
-.footer-menu-item:focus {
+.footer-menu-link{
+transition: color var(--transition-duration-and-func);
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
   color: var(--color-braun);
-  font-size: 15px;
-  font-weight: 500;
 }
 
 /*Соціальні мережі*/
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .footer-socials {
-    margin-left: 171px;
+    display: block;
     margin-bottom: 40px;
   }
 }
@@ -191,16 +179,15 @@
 
 .footer-socials-list {
   display: flex;
-  justify-content: center;
   align-items: center;
   padding: 0px;
   gap: 20px;
   margin-bottom: 44px;
 }
 
-@media only screen and (min-width: 767px) {
-  .footer-socials-list {
-    margin-bottom: 40px;
+@media only screen and (max-width: 767px){
+  .footer-socials-list{
+justify-content: center;
   }
 }
 
@@ -268,12 +255,6 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.3;
-  transition: color var(--transition-duration-and-func);
-}
-    
-.footer-address-item:hover,
-.footer-address-item:focus {
-      color: var(--color-Peach);
 }
 
 .footer-address-item:not(:last-child) {
