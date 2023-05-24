@@ -44,6 +44,10 @@ body {
   background-color: #ae1332;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* CONTAINER */
 
 /* .container {
