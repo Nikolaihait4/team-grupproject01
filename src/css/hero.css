@@ -12,12 +12,19 @@
   }
 }
 
+@media only screen and (min-width: 375px) {
+  .hero {
+    padding-top: 56px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     padding-top: 56px;
     padding-bottom: 0;
   }
 }
+
 .hero-title {
   font-weight: 500;
   font-size: 28px;
