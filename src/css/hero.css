@@ -4,6 +4,14 @@
   padding-bottom: 80px;
   margin-top: 106px;
 }
+
+@media only screen and (max-width: 374px) {
+  .hero-title {
+    font-size: 24px;
+    width: 280px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .hero {
     padding-bottom: 0;
