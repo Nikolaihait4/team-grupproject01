@@ -162,7 +162,7 @@
 @media only screen and (min-width: 768px) {
   .hero-fruits {
     position: relative;
-    width: 768px;
+    /* width: 768px; */
     margin-top: 0;
     margin-bottom: 703px;
   }
@@ -238,7 +238,7 @@
   .basket-strawberry {
     position: absolute;
     top: 44px;
-    right: 96px;
+    right: 50px;
   }
 }
 /* Desktop */
@@ -348,7 +348,7 @@
     justify-content: end;
     position: absolute;
     top: 475px;
-    right: 64px;
+    right: 30px;
   }
 }
 @media only screen and (min-width: 1280px) {
@@ -358,7 +358,7 @@
     justify-content: end;
     position: absolute;
     top: -99px;
-    right: 64px;
+    right: 36px;
     animation: move-to-left 800ms ease-in 3600ms both;
   }
 }
