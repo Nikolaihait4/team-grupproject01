@@ -59,7 +59,7 @@
   }
 }
 .contacts-img-1 {
-  min-width: 335px;
+  /* min-width: 335px; */
   border-radius: 20px;
   margin: 0 auto;
 }
