@@ -170,9 +170,10 @@
   align-items: center;
   justify-content: center;
   width: 300px;
-
+  width: 100%;
   /* width: 335px; */
   height: 112px;
+  padding: 20px;
   /* margin-bottom: 20px; */
 
   background-color: #ffffff;
