@@ -68,7 +68,7 @@
   }
 }
 /* Screen >768px */
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   .hero-img {
     top: -13px;
   }
@@ -138,7 +138,7 @@
   gap: 44px;
   margin-right: auto;
   margin-left: auto;
-  width: 335px;
+  /* width: 335px; */
 }
 /* Tablet */
 @media only screen and (min-width: 768px) {
@@ -181,7 +181,7 @@
     width: 222px;
     top: -458px;
     left: 62px;
-     animation: move-to-right 800ms ease-in 600ms both;
+    animation: move-to-right 800ms ease-in 600ms both;
   }
 }
 .watermelow {
@@ -205,7 +205,7 @@
     position: absolute;
     top: -306px;
     left: 62px;
-     animation: move-to-right 800ms ease-in 2600ms both;
+    animation: move-to-right 800ms ease-in 2600ms both;
   }
 }
 .basket-strawberry {
@@ -341,7 +341,7 @@
     position: absolute;
     top: -99px;
     right: 64px;
-     animation: move-to-left 800ms ease-in 3600ms both;
+    animation: move-to-left 800ms ease-in 3600ms both;
   }
 }
 .hero-tegs-txt {
